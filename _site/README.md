@@ -1,30 +1,27 @@
-Agency Jekyll theme
-====================
+Make sure you have the following installed before continuing (this is what I’m using as I write this):
 
-Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
-
-# How to use
-
-###Portfolio 
-
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
+Ruby (v1.9.2 or higher)
+RubyGems (v1.8.24 or higher)
+Bundler (v1.2.0.pre.1 or higher)
 
 
-# Demo
+Install dependencies from Gemfile
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+```bundle install --path _vendor/bundle```
 
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+
+Start local dev:
+
+jekyll serve
+
+
+
+Deploy, update push to master on origin
+
+
+Posts go in _posts and projects go in _projects
+
+
+More help:
+
+https://help.github.com/articles/using-jekyll-with-pages/
