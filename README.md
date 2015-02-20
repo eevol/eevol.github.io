@@ -22,3 +22,6 @@ Deploy, update push to master on origin
 Posts go in _posts and projects go in _projects
 
 
+More help:
+
+https://help.github.com/articles/using-jekyll-with-pages/
