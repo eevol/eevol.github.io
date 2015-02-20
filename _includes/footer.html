@@ -1,25 +1,51 @@
-  <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} 2014</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div>
+<footer id="colophon" class="site-footer " role="contentinfo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 columns widget">
+                <h3 class="footer-header">Find us</h3>
+                <img src="img/map.png" class="img-responsive" alt="">
+            </div>
+            <div class="col-md-2 columns widget">
+                <h3 class="footer-header">Contact</h3>
+                <address>
+                    eevol sàrl<br>
+                    1319 Luxembourg<br>
+                    &nbsp;<br>
+                    ping@eevol.lu<br>
+                    +352 621 143 859
+                </address>
+            </div>
+            <div class="col-md-3 columns widget">
+                <h3 class="footer-header">Legal</h3>
+                <p>
+                    Autorisation: 10030485/0<br>
+                    RC: B172430<br>
+                    TVA: LU25748306
+                </p>
+            </div>
+            <div class="col-md-2 columns widget">
+                <h3 class="footer-header">Languages</h3>
+                <p>
+                    Lëtzebuergesch<br>
+                    English<br>
+                    Deutsch<br>
+                    Français<br>
+                </p>
             </div>
         </div>
-    </footer>
+        <div class="row">
+            <div class="col-md-4">
+                <span class="copyright">Copyright &copy; {{ site.title }} 2014</span>
+            </div>
+            <div class="col-md-4 pull-right">
+                <ul class="list-inline social-buttons">
+                    {% for network in site.social %}
+                    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>

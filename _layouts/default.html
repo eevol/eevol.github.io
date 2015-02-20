@@ -9,16 +9,8 @@
     {% include header.html %}
     {% include services.html %}
     {% include portfolio_grid.html %}
-    <!--{% include about.html %}-->
     {% include team.html %}
-    <ul class="posts">
-        {% for post in site.posts %}
-        <li>
-            <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
+    {% include blog.html %}
     <!--<script async src="https://static.medium.com/embed.js"></script><a class="m-profile" href="https://medium.com/@eevol">eevol</a>-->
     <!--{% include contact.html %}-->
     {% include footer.html %}
