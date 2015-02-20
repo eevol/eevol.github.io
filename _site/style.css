@@ -213,9 +213,10 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 1px;
-    color: #53c6b8;
+    color: #fff;
+    text-align: center;
 }
 
 .navbar-default.navbar-shrink .nav li a {
@@ -269,6 +270,10 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+.navbar-default .nav li a {
+    font-weight: 400;
+    color: #53c6b8;
+}
 }
 
 header {
