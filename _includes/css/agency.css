@@ -168,6 +168,14 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+.btn-xl.btn-bordered {
+    border-bottom: solid 4px #{{ site.color.secondary }};
+}
+
+.btn.btn-bordered {
+    border-bottom: solid 3px #{{ site.color.secondary }};
+}
+
 .navbar-default {
     border-color: transparent;
     background-color: #{{ site.color.primary }};
@@ -882,6 +890,10 @@ body {
     font-weight: 300;
 }
 
+.post-header a:hover{
+    text-decoration: underline;
+}
+
 .post-meta{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -893,4 +905,12 @@ article.post{
     margin-top: 75px;
     margin-bottom: 75px;
     font-size: 18px;
+}
+
+.post-navigation-top{
+    margin-top: 75px;
+}
+
+.post-navigation-bottom{
+    margin-bottom: 75px;
 }

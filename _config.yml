@@ -9,7 +9,7 @@ description: "Write an awesome description for your new site here. You can edit 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 53c6b8
-  secondary: fec503
+  secondary: 206058
   secondary-dark: 206058
 
 #Portfolio
@@ -21,6 +21,7 @@ people:
 - name: Thierry Nicola
   pic: thierry
   position: Frontend & Server Developer
+  email: thierry@eevol.lu
   social:
     - title: twitter
       url: http://twitter.com/littleiffel
@@ -31,6 +32,7 @@ people:
 - name: Jakob Drangmeister
   pic: jakob
   position: iOS & Web Developer
+  email: jakob@eevol.lu
   social:
     - title: twitter
       url: http://twitter.com/issue2k
@@ -41,6 +43,7 @@ people:
 - name: Andreas Weber
   pic: andreas
   position: Android & Web Developer
+  email: andreas@eevol.lu
   social:
     - title: github
       url: http://github.com/anti43
