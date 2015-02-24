@@ -19,8 +19,8 @@ body {
 }
 
 p {
-    font-size: 14px;
-    line-height: 1.75;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 p.large {
@@ -860,4 +860,23 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+}
+
+.posts li{
+    list-style: none;
+}
+
+.post-header a{
+    color: #849593;
+    text-decoration: none;
+    font-size: 35pt;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.post-meta{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12pt;
+    text-transform: uppercase;
 }

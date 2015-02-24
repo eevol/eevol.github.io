@@ -25,31 +25,26 @@ people:
     - title: twitter
       url: http://twitter.com/littleiffel
     - title: github
-      url: #
-    - title: skype
-      url: #
+      url: http://github.com/littleiffel
+
 
 - name: Jakob Drangmeister
   pic: jakob
   position: iOS & Web Developer
   social:
     - title: twitter
-      url: #
+      url: http://twitter.com/issue2k
     - title: github
-      url: #
-    - title: skype
-      url: #
+      url: http://github.com/issue2k
+
 
 - name: Andreas Weber
   pic: andreas
   position: Android & Web Developer
   social:
-    - title: twitter
-      url: #
     - title: github
-      url: #
-    - title: skype
-      url: #
+      url: http://github.com/anti43
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
