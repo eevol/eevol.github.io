@@ -298,8 +298,8 @@ header.header--dark {
     background-image: url(../img/header-dark.png);
 }
 
-header.header--dark .intro-text{
-    color: #ccc;
+header.header--dark .intro-heading{
+    color: #ddd;
 }
 
 header .intro-text {
