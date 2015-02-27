@@ -1,8 +1,10 @@
 var gulp        = require('gulp');
+var $           = require('gulp-load-plugins')();
 var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
+var minifyCSS   = require('gulp-minify-css');
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -57,6 +59,23 @@ gulp.task('sass', function () {
 gulp.task('watch', function () {
     gulp.watch('_scss/*.scss', ['sass']);
     gulp.watch(['index.html', '_layouts/*.html', '_posts/*', '_includes/*'], ['jekyll-rebuild']);
+});
+
+// Optimize Images
+gulp.task('images', function () {
+    return gulp.src('img/**/*')
+        .pipe($.cache($.imagemin({
+            progressive: true,
+            interlaced: true
+        })))
+        .pipe(gulp.dest('_site/img'))
+        .pipe($.size({title: 'images'}));
+});
+
+gulp.task('minify-css', function() {
+    return gulp.src('_site/style.css')
+        .pipe(minifyCSS({keepBreaks:true}))
+        .pipe(gulp.dest('./_site/'))
 });
 
 /**
