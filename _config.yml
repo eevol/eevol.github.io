@@ -12,6 +12,15 @@ color:
   secondary: 206058
   secondary-dark: 206058
 
+exclude:
+- node_modules
+- Gemfile
+- npm-debug.log
+- gulpfile.js
+- package.json
+- README.md
+-.gitignore
+
 #Portfolio
 collections:
 - projects
