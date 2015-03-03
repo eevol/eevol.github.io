@@ -95,3 +95,5 @@ gulp.task('pagespeed', function (cb) {
  * compile the jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', ['browser-sync', 'watch']);
+
+gulp.task('optimize', ['images', 'minify-css', 'pagespeed'])
