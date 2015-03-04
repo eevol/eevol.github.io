@@ -19,7 +19,7 @@ exclude:
 - gulpfile.js
 - package.json
 - README.md
--.gitignore
+- .gitignore
 
 #Portfolio
 collections:
