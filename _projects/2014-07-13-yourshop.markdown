@@ -1,0 +1,15 @@
+---
+title: Yourshop.lu
+subtitle: from Scratch to Live
+layout: default
+modal-id: 1
+date: 2014-02-01
+img: yourshop.png
+thumbnail: yourshop-thumbnail.png
+alt: image-alt
+project-date: since February 2014
+client: Yourshop.lu
+category: Web Development
+description: eevol developed this shop-in-shop system for Yourshop.lu from scratch. Yourshop.lu started from a simple idea and quickly grew to a final product. After 8 month of development a first version of Yourshop.lu could be release to the public. eevol accompagnied the customer throughout the project planning and mangement, consulted on technical possibilites and provided assitstance to the many questions that arise over the duration of 8 months.
+
+---
