@@ -317,9 +317,9 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 300;
-    line-height: 50px;
+    line-height: 45px;
 }
 
 @media(min-width:768px) {
@@ -925,4 +925,13 @@ article.post{
 
 .text-black{
     color:#222;
+}
+
+.header-logo{
+  margin-top: -10px;
+  height: 40px;
+}
+
+.posts{
+  padding-left: 0;
 }
