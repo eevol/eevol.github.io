@@ -6,7 +6,6 @@ var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 var minifyCSS   = require('gulp-minify-css');
 var pagespeed   = require('psi');
-var tinypng    = require('gulp-tinypng');
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
