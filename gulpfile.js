@@ -6,6 +6,7 @@ var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 var minifyCSS   = require('gulp-minify-css');
 var pagespeed   = require('psi');
+var tinypng    = require('gulp-tinypng');
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -67,7 +68,8 @@ gulp.task('images', function () {
     return gulp.src('img/**/*')
         .pipe($.cache($.imagemin({
             progressive: true,
-            interlaced: true
+            interlaced: true,
+            optimizationLevel: 5
         })))
         .pipe(gulp.dest('_site/img'))
         .pipe($.size({title: 'images'}));
