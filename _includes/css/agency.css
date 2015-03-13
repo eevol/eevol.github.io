@@ -920,6 +920,8 @@ article.post{
     color:#222;
 }
 
+/* eevol */
+
 .header-logo{
   margin-top: -10px;
   height: 40px;
@@ -927,4 +929,18 @@ article.post{
 
 .posts{
   padding-left: 0;
+}
+
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
 }
