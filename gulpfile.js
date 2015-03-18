@@ -116,4 +116,4 @@ gulp.task('pagespeed', function (cb) {
  */
 gulp.task('default', ['browser-sync', 'watch']);
 
-gulp.task('optimize', ['images', 'minify-css', 'minify-html', 'uglify',' pagespeed'])
+gulp.task('optimize', ['images', 'minify-css', 'minify-html', 'uglify', 'pagespeed'])
