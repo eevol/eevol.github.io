@@ -6,6 +6,7 @@ var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 var minifyCSS   = require('gulp-minify-css');
 var minifyHTML  = require('gulp-minify-html');
+var uglify      = require('gulp-uglify');
 var pagespeed   = require('psi');
 
 var messages = {
@@ -92,6 +93,12 @@ gulp.task('minify-html', function() {
     .pipe(gulp.dest('./_site/'));
 });
 
+gulp.task('uglify', function() {
+  gulp.src('_site/js/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('_site/js/'))
+});
+
 // Run PageSpeed Insights
 gulp.task('pagespeed', function (cb) {
     // Update the below URL to the public URL of your site
@@ -109,4 +116,4 @@ gulp.task('pagespeed', function (cb) {
  */
 gulp.task('default', ['browser-sync', 'watch']);
 
-gulp.task('optimize', ['images', 'minify-css', 'minify-html','pagespeed'])
+gulp.task('optimize', ['images', 'minify-css', 'minify-html', 'uglify',' pagespeed'])
