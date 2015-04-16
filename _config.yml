@@ -29,7 +29,7 @@ collections:
 people:
 - name: Thierry Nicola
   pic: thierry
-  position: Frontend & Server Developer
+  position: CEO / Frontend / Server Developer
   email: thierry@eevol.lu
   social:
     - title: twitter
@@ -40,7 +40,7 @@ people:
 
 - name: Jakob Drangmeister
   pic: jakob
-  position: iOS & Web Developer
+  position: iOS / Web Developer
   email: jakob@eevol.lu
   social:
     - title: twitter
@@ -51,11 +51,22 @@ people:
 
 - name: Andreas Weber
   pic: andreas
-  position: Android & Web Developer
+  position: Android / Web Developer
   email: andreas@eevol.lu
   social:
     - title: github
       url: http://github.com/anti43
+
+
+- name: Tomas Kamarauskas
+  pic: tomas
+  position: UX / iOS Developer
+  email: tomas@eevol.lu
+  social:
+    - title: github
+      url: https://github.com/tomasKa
+    - title: twitter
+      url: https://twitter.com/KaMatom  
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
