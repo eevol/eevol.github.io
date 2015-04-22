@@ -1,0 +1,15 @@
+---
+title: Motion-S
+subtitle: Android, iOS & API
+layout: default
+modal-id: 2
+date: 2015-04-01
+img: motion-s.png
+thumbnail: motion-s-thumbnail.png
+alt: motion-s.com
+project-date: since June 2014
+client: Motion-S.com
+category: Mobile Apps
+description: eevol is developing native Android and iOS applications for Motion-S. The main challenge of this project is to continously update the apps, and keeping all  platforms in sync. Motion-S is a young promising startup in the market of telematic applicaitons. As such the projects are facing constantly changing requirements and as developers we adapated to this environment. 
+
+---
