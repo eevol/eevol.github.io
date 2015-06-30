@@ -4,7 +4,7 @@ baseurl: ""
 # Site settings
 title: eevol
 email: ping@eevol.lu
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "eevol provides full services for your mobile- & web-apps. During every step of the development the team aims for stability while maintaining flexibility for the customer. eevol helps you to get started and brings your idea to the App Stores directly to the people."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
