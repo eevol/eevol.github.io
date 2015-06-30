@@ -1,0 +1,74 @@
+---
+layout: simple
+---
+<header class="header--dark">
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">posted on {{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</div>
+            <div class="intro-heading">{{ page.title }}</div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9 col-xs-12">
+            <article class="post job">
+                <h1 class="post-title">
+                    {{ page.title }}
+                </h1>
+                <p>
+                    {{ content }}
+                </p>
+            </article>
+        </div>
+        <div class="col-sm-3 col-xs-12">
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h4 class="sidebar-heading">Meta</h4>
+                    <dl>
+                        <dt>Where</dt>
+                        <dd>
+                            {{page.where}}
+                        </dd>
+                        <dt>When
+                        </dt>
+                        <dd>{{page.when}}</dd>
+                        <dt>How</dt>
+                        <dd>{{page.time}}</dd>
+                    </dl>
+                </div>
+                <div class="sidebar-section">
+                    <h4 class="sidebar-heading">Interested!</h4>
+                    <p>Please direct your application to <a href="mailto:jobs@eevol.lu">jobs@eevol.lu</a></p>
+                </div>
+                <div class="sidebar-section">
+                    <h4 class="sidebar-heading">Questions!</h4>
+                    <p>For further details or questions, please contact</p>
+                    <span class="text-black ">Thierry Nicola</span><br>
+                    <span>+352 621 143 859</span><br>
+                    <a href="mailto:thierry@eevol.lu">thierry@eevol.lu</a>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+    <div class="row well">
+        <div class="col-md-2">
+            <img src="/img/logo_icon_black.png" class="img-centered img-responsive" alt="eevol logo"/>
+        </div>
+        <div class="col-md-8">
+            <h4 class="text-black">About</h4>
+            <p class="text-black">eevol sàrl is a company based in Luxembourg for iOS & Android Applications and Web Applications. Offering complete solutions for mobile apps and working with agile methods.</p>
+            <p class="text-black">Contact us: ping@eevol.lu</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="post-navigation-bottom">
+                <a href="{{ site.url }}" class="btn btn-default btn-sm">
+                    < Eevol Homepage
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

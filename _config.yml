@@ -23,7 +23,10 @@ exclude:
 
 #Portfolio
 collections:
-- projects
+  projects:
+    output: true
+  jobs:
+    output: true
 
 # Team names, titles and social links
 people:
